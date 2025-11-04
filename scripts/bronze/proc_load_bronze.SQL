@@ -3,28 +3,29 @@
 Script Name: Load Bronze Layer (Source → Bronze)
 ===============================================================================
 Script Purpose:
-    This MySQL script replicates the Bronze Layer data-loading process 
-    Originally implemented in MS SQL Server using a stored procedure.
-    It performs the following actions:
-    - Truncates all bronze tables before loading data.
-    - Loads fresh data from CSV files into each corresponding table 
-      using MySQL's Table Data Import Wizard (due to secure-file-priv limitations).
+    This script is designed to load data into the Bronze Layer of the 
+    Data Warehouse. It ensures that all staging (bronze) tables are refreshed 
+    with clean and updated data from external CSV sources.
+
+    The process includes:
+    - Truncating all Bronze Layer tables before each load.
+    - Importing fresh data from CSV files into each corresponding table
+      using MySQL’s Table Data Import Wizard (used due to secure-file-priv limitations).
 
 Implementation Notes:
-    Since MySQL does not support the BULK INSERT command or multiple schemas 
-    in the same way as SQL Server, this process was adapted to use:
-      - Table Data Import Wizard in MySQL Workbench for importing data.
-      - Prefixed table names (crm_, erp_) to represent the bronze layer.
+    - Data loading is performed using the Table Data Import Wizard in MySQL Workbench.
+    - Table names are prefixed (e.g., crm_, erp_) to represent the Bronze Layer.
+    - This approach maintains a clean and consistent structure for staging data.
 
 Parameters:
-    None. 
-    This script is manually executed step-by-step in MySQL Workbench 
+    None.
+    This script is executed manually in MySQL Workbench 
     and does not accept parameters or return values.
 
 Usage Example:
     -- Step 1: Run truncation commands to clear existing data.
-    -- Step 2: Import CSV files via Table Data Import Wizard.
-    -- Step 3: Verify the first few rows of each table using SELECT queries.
+    -- Step 2: Import CSV files using the Table Data Import Wizard.
+    -- Step 3: Verify data load using SELECT queries.
 
 ===============================================================================
 */
