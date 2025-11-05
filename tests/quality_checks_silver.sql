@@ -202,7 +202,7 @@ WHERE cat != TRIM(cat)
 -- Data Standardisation & Consistency
 SELECT DISTINCT cat FROM silver.erp_px_cat_g1v2;
 SELECT DISTINCT subcat FROM silver.erp_px_cat_g1v2;
-SELECT DISTINCT maintenance FROM silver.erp_px_cat_g1v2;
+SELECT DISTINCT maintenence FROM silver.erp_px_cat_g1v2;
 
 -- Final Data Review
 SELECT * FROM silver.erp_px_cat_g1v2;
