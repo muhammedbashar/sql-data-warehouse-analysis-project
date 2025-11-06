@@ -197,7 +197,7 @@ SELECT *
 FROM silver.erp_px_cat_g1v2
 WHERE cat != TRIM(cat) 
    OR subcat != TRIM(subcat)
-   OR maintenence != TRIM(maintenence);
+   OR maintenance != TRIM(maintenance);
 
 -- Data Standardisation & Consistency
 SELECT DISTINCT cat FROM silver.erp_px_cat_g1v2;
