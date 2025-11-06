@@ -56,7 +56,7 @@ SELECT
     pn.cat_id        AS category_id,
     pc.cat           AS category,
     pc.subcat        AS subcategory,
-    pc.maintenence   AS maintenence,
+    pc.maintenance   AS maintenance,
     pn.prd_cost      AS cost,
     pn.prd_line      AS product_line,
     pn.prd_start_dt  AS start_date
