@@ -38,26 +38,25 @@ data-warehouse-project/
 ├── datasets/ # Raw CSV data from ERP and CRM
 │
 ├── docs/ # Detailed documentation and visuals
-│ ├── data_architecture.png # High-level data architecture diagram
-│ ├── data_catalog.md # Data catalogue with metadata and field definitions
-│ ├── data_flow.png # End-to-end data flow between layers
-│ ├── data_integration.png # Integration pipeline overview
-│ ├── data_layers.pdf # Explanation of Bronze, Silver, Gold layers
-│ ├── data_model.png # Final star schema and relationships
-│ ├── ETL.png # ETL pipeline visual representation
-│ ├── naming_conventions.md # Standard naming guidelines for tables and columns
-│ └── Project_Notes_Sketch.pdf # Project notes, sketches, and planning references
+│ ├── data_architecture.png      # High-level data architecture diagram
+│ ├── data_catalog.md            # Data catalogue with metadata and field definitions
+│ ├── data_flow.png              # End-to-end data flow between layers
+│ ├── data_integration.png       # Integration pipeline overview
+│ ├── data_layers.pdf            # Explanation of Bronze, Silver, Gold layers
+│ ├── data_model.png             # Final star schema and relationships
+│ ├── ETL.png                    # ETL pipeline visual representation
+│ ├── naming_conventions.md      # Standard naming guidelines for tables and columns
+│ └── Project_Notes_Sketch.pdf   # Project notes, sketches, and planning references
 │
 ├── scripts/
-│ ├── bronze/ # Load raw source data (CSV → SQL tables)
-│ ├── silver/ # Clean, transform, and standardise data
-│ └── gold/ # Create business-ready analytical models
+│ ├── bronze/                    # Load raw source data (CSV → SQL tables)
+│ ├── silver/                    # Clean, transform, and standardise data
+│ └── gold/                      # Create business-ready analytical models
 │
-├── tests/ # Data validation and quality checks
+├── tests/                       # Data validation and quality checks
 │
-├── README.md # Project overview and documentation
-├── LICENSE # Open-source license
-└── .gitignore # Ignored files and folders
+├── README.md                    # Project overview and documentation
+
 ```
 
 ⚙️ Tools & Technologies
