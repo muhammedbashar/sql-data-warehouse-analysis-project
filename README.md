@@ -9,65 +9,8 @@ Designed as a portfolio project, it highlights industry best practices in modern
 
 The project follows the Medallion Architecture pattern (Bronze → Silver → Gold), ensuring clean data flow, reusability, and scalability.
 
-<p align="center"> <img src="docs/data_architecture.png" alt="High Level Architecture" width="800"> </p>
-Architecture Layers
-Bronze Layer – Raw Data
+<img width="1377" height="845" alt="data_architecture" src="https://github.com/user-attachments/assets/023a9b9f-2779-4ec8-b334-deec8a87a236" />
 
-Object Type: Tables
-
-Load Type: Batch | Full Load | Truncate & Insert
-
-Transformation: None (as-is ingestion)
-
-Data Model: None
-
-Silver Layer – Cleaned & Standardised Data
-
-Object Type: Tables
-
-Load Type: Batch | Full Load | Truncate & Insert
-
-Transformations:
-
-Data Cleansing
-
-Standardization
-
-Normalization
-
-Derived Columns
-
-Data Enrichment
-
-Gold Layer – Business-Ready Data
-
-Object Type: Views
-
-Load Type: None (Transformation Layer)
-
-Transformations:
-
-Data Integrations
-
-Aggregations
-
-Business Logic
-
-Data Model:
-
-Star Schema
-
-Flat Table
-
-Aggregated Table
-
-Consume Layer
-
-BI & Reporting (Power BI / Tableau)
-
-Ad-hoc SQL Queries
-
-Machine Learning Models
 
 📖 Project Overview
 
