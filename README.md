@@ -103,7 +103,7 @@ Strengthened knowledge in data architecture, design, and analytics.
 
 👤 About Me
 
-Hi there! I'm Muhammed Bashar Ayyoli, also known as Data with Bashar — a passionate Data Analyst in the making, who loves turning data into meaningful insights and stories.
+Hi there! I'm Muhammed Bashar Ayyoli, also known as Bashar — a passionate Data Analyst in the making, who loves turning data into meaningful insights and stories.
 
 📫 Connect with me:
 
