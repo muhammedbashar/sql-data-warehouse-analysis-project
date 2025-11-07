@@ -101,6 +101,6 @@ Hi there! I'm Muhammed Bashar Ayyoli, also known as Data with Bashar — a passi
 
 📫 Connect with me:
 
-🌐 GitHub
+🌐 GitHub: https://github.com/muhammedbashar
 
-💼 LinkedIn
+💼 LinkedIn  https://www.linkedin.com/in/muhammed-bashar-b56770328/
