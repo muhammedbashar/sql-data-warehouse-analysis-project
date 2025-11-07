@@ -61,9 +61,17 @@ data-warehouse-project/
 
 ⚙️ Tools & Technologies
 
-SQL Server Express – Database and ETL execution
+⚙️ Tech Stack
 
-SQL Server Management Studio (SSMS) – Database management GUI
+Database: MySQL
+
+Tool: MySQL Workbench
+
+Data Model: Star Schema (Fact + Dimensions)
+
+Architecture: Medallion (Bronze → Silver → Gold)
+
+Languages: SQL (DDL, DML, and analytical queries)
 
 Draw.io – For architecture and flow diagrams
 
