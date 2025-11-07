@@ -67,8 +67,6 @@ SQL Server Management Studio (SSMS) – Database management GUI
 
 Draw.io – For architecture and flow diagrams
 
-Notion – Project documentation and task tracking
-
 GitHub – Version control and portfolio hosting
 
 🧩 Skills Demonstrated
